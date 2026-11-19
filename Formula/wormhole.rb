@@ -7,23 +7,23 @@ class Wormhole < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/penpapertech/wormhole/releases/download/v0.1.0/wormhole-macos-arm64.tar.gz"
-      sha256 "e197d13c126e8c561fa1aece43698e091e84677f766a43454ad975ffe7d24ca4"
+      url "https://github.com/penpapertech/wormhole/releases/download/v0.1.1/wormhole-macos-arm64.tar.gz"
+      sha256 "d42d4a4224283b2a7bb70fadc1f485d064e1f9ba32e2359bae2447082e2d4f83"
     end
     on_intel do
-      url "https://github.com/penpapertech/wormhole/releases/download/v0.1.0/wormhole-macos-x86_64.tar.gz"
-      sha256 "592170951ac63ae950df238a3519d349743e767e28f8c9e03f59a6acaa6b177b"
+      url "https://github.com/penpapertech/wormhole/releases/download/v0.1.1/wormhole-macos-x86_64.tar.gz"
+      sha256 "bac7ad9c0074d0f28128d61494f9207bd4a43e019916e7e9032d8c08d5fd8889"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/penpapertech/wormhole/releases/download/v0.1.0/wormhole-linux-aarch64.tar.gz"
-      sha256 "f03f4dbca138dcff5ba282b067464e6a0cbfe951bfd52084873a792374a283cc"
+      url "https://github.com/penpapertech/wormhole/releases/download/v0.1.1/wormhole-linux-aarch64.tar.gz"
+      sha256 "affd542423e11a21ecee12f11d657400acbd6b8be690f0b4422424df30e6ab64"
     end
     on_intel do
-      url "https://github.com/penpapertech/wormhole/releases/download/v0.1.0/wormhole-linux-x86_64.tar.gz"
-      sha256 "46d08726c6a1eb3c748f458ccbc19c6ec8a5c24e2edb3487010ec7b56900ce0d"
+      url "https://github.com/penpapertech/wormhole/releases/download/v0.1.1/wormhole-linux-x86_64.tar.gz"
+      sha256 "0061ceef22419286e8fa3d229a7006de37c49a2eabe4db1f31846e66310e0609"
     end
   end
 
